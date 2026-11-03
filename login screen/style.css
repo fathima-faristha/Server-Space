@@ -1,0 +1,120 @@
+body{
+    background-image: url("images/login.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: serif;
+    color: white;
+}
+form{
+    width: 400px;
+    margin:20vh auto 0 auto;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+form button{
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    height:35px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    padding-top: 6px;
+    font-family: serif;
+    margin-top: -25px;
+    
+    }
+button:hover{
+    background-color: rgba(0, 0, 0, 0.01);
+    transition: 0.5s;
+    }
+.input-group{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+.input-group input{
+    width: 100%;
+    padding: 3px 0;
+    border: none;
+    border-bottom: 2px solid rgb(92, 86, 86);
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+input:focus{
+    border-bottom: 2px solid black;
+}
+.footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: serif;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+    transition: 0.1s;
+    color:rgb(0, 0, 54)
+}
+
+.input-group a{
+    text-decoration: none;
+    text-align: end;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+.input-group a:hover{
+    text-decoration: underline;
+    transition: 0.1s;
+    color:rgb(0, 0, 54)
+}
+
+.remember-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.remember input{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 5px;
+}
+@media(max-width: 480px) {
+    form{
+        margin-top: 10vh;
+        padding: 20px;
+    }
+}

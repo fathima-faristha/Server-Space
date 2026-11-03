@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="login">
+        <form action="#" method="post">
+            <h1>Login</h1>
+
+            <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <div class="error"></div>
+            </div>
+
+            <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <div class="error"></div>
+            </div>
+
+            <div class="input-group remember-row">
+            <label class="remember"><input type="checkbox" id="remember">Remember me</label>
+            <a href="forgot.html">Forgot Password</a>
+            </div>
+
+            <button type="submit">Login</button>
+            <p class="footer">Don't have an account? <a href="register.html">Register</a></p>
+        </form>
+    </div>
+
+</body>
+</html>
